@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color : 
+    #6366F1 ;
+}
+
+h1{
+    color: #6366F1;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-width: 98vw;
+}
+
+.container{
+    margin: 2rem auto 7rem;
+    text-align: center;
+}
+
+label{
+    display: block;
+    font: large;
+    font-weight: 600;
+}
+
+#initial-price, #quantity-of-stock , #current-price {
+
+    font-size: 14px;
+    outline: #ffff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    max-width: 258px;
+}
+
+.check-btn  {
+    background-color: var(--primary-color);
+    border: none;
+    color: #ffff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #ffff;
+    margin: auto;
+    display: block;
+}
+
+.output-div{
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
