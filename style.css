@@ -27,7 +27,7 @@ label{
 
 #initial-price, #quantity-of-stock , #current-price {
 
-    font-size: 14px;
+    font-size: 12px;
     outline: #ffff;
     padding: 0.6rem 1rem;
     margin: 1rem;
@@ -53,4 +53,29 @@ label{
     padding-top: 1rem;
     text-align: center;
     font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-right: 3rem;
+}
+
+
+.footer-list{
+    margin: 1rem;
+}
+
+a,img,li{
+    display: inline;
+    text-decoration: none;
+}
+
+img{
+    width: 40px;
+    padding: 0.2rem;
+    
 }
